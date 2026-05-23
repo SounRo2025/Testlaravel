@@ -1,12 +1,38 @@
+.DS_Store
+Thumbs.db
+
+# Node
 /node_modules
+npm-debug.log*
+yarn-error.log*
+
+# Laravel / PHP
 /public/hot
 /public/storage
 /storage/*.key
+/storage/logs
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+
 /vendor
+
+# Environment files
 .env
 .env.backup
+.env.example
+# PHPUnit
 .phpunit.result.cache
+
+# Homestead
 Homestead.json
 Homestead.yaml
-npm-debug.log
-yarn-error.log
+
+# IDEs and editors
+/.idea
+/.vscode
+
+# Optional build/cache
+/.sass-cache
+/.cache
+
